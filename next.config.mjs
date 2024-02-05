@@ -1,4 +1,9 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+import { withContentlayer } from "next-contentlayer"
+import "./env.mjs"
 
-export default nextConfig;
+/** @types {import('next').NextConfig} */
+const nextConfig = {
+  transpilePackages: ['lucide-react']
+};
+
+export default withContentlayer(nextConfig)

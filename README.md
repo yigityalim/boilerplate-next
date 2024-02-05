@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Nextjs Boilerplate
+Bu bir boilerplate (temel proje) dosyasıdır. Nextjs ile oluşturulmuş bir projenin temel dosyalarını içerir. Bu dosyaları kullanarak projenizi hızlıca oluşturabilirsiniz.
+<br />
+Geliştirici: [Mehmet Yiğit Yalım](https://github.com/yigityalim)
 
-## Getting Started
+## İçerik
+- [Nextjs](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://typicode.github.io/husky/)
+- [Lint-staged](https://lint-staged.js.org/)
+- [Shadcn-ui](https://ui.shadcn.com/)
+- [Graphql](https://graphql.org/)
 
-First, run the development server:
+## Kullanım
+1. Bu repository'i kendi bilgisayarınıza klonlayın.
 
 ```bash
+git clone https://github.com/yigityalim/boilerplate-next.git
+```
+
+2. Klasörü açın ve gerekli paketleri yükleyin.
+
+```bash
+cd boilerplate-next
+# npm
+npm install
+# yarn
+yarn
+# pnpm
+pnpm install
+# bun
+bun install
+```
+
+3. Projeyi çalıştırın.
+
+```bash
+# npm
 npm run dev
-# or
+# yarn
 yarn dev
-# or
+# pnpm
 pnpm dev
-# or
+# bun
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. Tarayıcınızda `http://localhost:3000` adresine gidin.
+5. Artık projenizi bu temel dosyalar üzerine inşa edebilirsiniz.
+6. İyi çalışmalar!

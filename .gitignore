@@ -20,6 +20,15 @@
 .DS_Store
 *.pem
 
+.idea
+.vscode
+.turbo
+.next
+.husky
+.npm
+.npmrc
+.npmignore
+
 # debug
 npm-debug.log*
 yarn-debug.log*
